@@ -1,3 +1,8 @@
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+/* Header Section */
 .background{
   background-color: skyblue;
   padding: 10px;
@@ -7,10 +12,7 @@
   font-weight:bold;
   text-align: center;
 }
-body {
-  overflow-x: hidden;
-  font-family: "Montserrat", sans-serif;
-}
+/* Search Box Section */
 .search-field {
   padding: 5px;
   width: 70%;
@@ -29,6 +31,7 @@ body {
   background-color:rgb(8, 97, 212);
   color: white;
 }
+/* All product section */
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -69,6 +72,7 @@ body {
 .cart-main {
   padding-right: 30px;
 }
+/* Responsive Section */
 @media only screen and (max-width: 768px) {
   #all-products {
     display: grid;
